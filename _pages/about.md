@@ -17,3 +17,5 @@ My studies have primarily taken place at the University of Sydney. It is where I
 During my PhD, I spent two years at the European Southern Observatory in Garching working with Céline Péroux and Martin Zwaan. Currently, I am a postdoctoral researcher at the Laboratoire d'Astrophysique de Marseille working with Matthew Pieri and Stéphane Arnouts.
 
 My interests broadly lie in studying gas in and around galaxies. Much of my work thus far involves the study of absorbers towards background sources and their galaxy counterparts. I work with both radio and optical wavelengths, as well as cosmological simulations.
+
+[Download my CV](/files/Simon_Weng_CV.pdf){: .btn}
