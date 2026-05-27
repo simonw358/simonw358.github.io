@@ -41,3 +41,134 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+:root {
+  --sw-ink: #263238;
+  --sw-muted: #5e6a6d;
+  --sw-line: #d9e0de;
+  --sw-accent: #2f7f7b;
+  --sw-accent-dark: #205e5a;
+  --sw-surface: #f7f9f8;
+}
+
+body {
+  color: var(--sw-ink);
+  background: linear-gradient(180deg, #fbfcfc 0%, #f4f7f6 100%);
+}
+
+a {
+  color: var(--sw-accent-dark);
+}
+
+a:hover {
+  color: var(--sw-accent);
+}
+
+.masthead {
+  border-bottom: 1px solid var(--sw-line);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(10px);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav .visible-links a:before {
+  background: var(--sw-accent);
+}
+
+.page,
+.archive {
+  background: #fff;
+  border: 1px solid var(--sw-line);
+  border-radius: 6px;
+  box-shadow: 0 14px 35px rgba(24, 45, 44, 0.06);
+  padding: 1.6rem;
+}
+
+.page__title,
+.archive__item-title {
+  color: var(--sw-ink);
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.archive h1,
+.archive h2,
+.archive h3 {
+  letter-spacing: 0;
+}
+
+.page__content h2,
+.archive h2 {
+  border-bottom: 1px solid var(--sw-line);
+  padding-bottom: 0.35rem;
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.author__avatar img {
+  border: 1px solid var(--sw-line);
+  box-shadow: 0 8px 22px rgba(24, 45, 44, 0.12);
+}
+
+.author__name {
+  color: var(--sw-ink);
+}
+
+.author__bio,
+.author__pronouns {
+  color: var(--sw-muted);
+}
+
+.author__urls-wrapper button {
+  border-color: var(--sw-line);
+  color: var(--sw-accent-dark);
+}
+
+.author__urls a:hover {
+  color: var(--sw-accent-dark);
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: var(--sw-accent-dark);
+}
+
+.btn:hover {
+  background-color: var(--sw-accent);
+}
+
+.cv-links .btn {
+  margin-bottom: 0;
+}
+
+.cv-frame {
+  background: var(--sw-surface);
+  box-shadow: 0 12px 28px rgba(24, 45, 44, 0.08);
+}
+
+.page__footer {
+  background: #eef3f1;
+  border-top: 1px solid var(--sw-line);
+  color: var(--sw-muted);
+}
+
+.page__footer a {
+  color: var(--sw-accent-dark);
+}
+
+@media (max-width: 1024px) {
+  .page,
+  .archive {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+    padding: 1rem;
+  }
+}
