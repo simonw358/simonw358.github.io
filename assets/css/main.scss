@@ -162,6 +162,49 @@ a:hover {
   color: var(--sw-accent-dark);
 }
 
+@media (min-width: 1024px) {
+  #main {
+    display: grid;
+    grid-template-columns: 290px minmax(0, 1fr);
+    gap: 2rem;
+    max-width: 1180px;
+  }
+
+  .sidebar {
+    grid-column: 1;
+    position: sticky;
+    top: calc(70px + 1.5rem);
+    align-self: start;
+    float: none;
+    width: auto;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .page,
+  .archive {
+    grid-column: 2;
+    float: none;
+    width: auto;
+    margin-left: 0;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .author__urls li {
+    white-space: normal;
+  }
+
+  .author__urls a {
+    font-size: 0.95rem;
+    line-height: 1.35;
+  }
+}
+
 @media (max-width: 1024px) {
   .page,
   .archive {
