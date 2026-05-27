@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Simon Weng"
   pronouns         : "he/him"  
-  bio              : "Postdoctoral researcher studying gas in and around galaxies"
+  bio              : "Postdoctoral researcher<br>studying gas in and around galaxies"
   location         : "Marseille, France"
-  employer         : "Laboratoire d'Astrophysique de Marseille"
+  employer         : "Laboratoire d'Astrophysique<br>de Marseille"
   uri              : # URL
   email            : "simon.weng@lam.fr" 
 

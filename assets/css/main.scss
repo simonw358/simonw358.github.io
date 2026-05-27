@@ -125,6 +125,13 @@ a:hover {
   color: var(--sw-muted);
 }
 
+.author__bio,
+.author__urls li,
+.author__urls a {
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
 .author__urls-wrapper button {
   border-color: var(--sw-line);
   color: var(--sw-accent-dark);
@@ -162,12 +169,12 @@ a:hover {
   color: var(--sw-accent-dark);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1120px) {
   #main {
     display: grid;
-    grid-template-columns: 290px minmax(0, 1fr);
-    gap: 2rem;
-    max-width: 1180px;
+    grid-template-columns: 330px minmax(0, 1fr);
+    gap: 2.25rem;
+    max-width: 1240px;
   }
 
   .sidebar {
@@ -202,6 +209,15 @@ a:hover {
   .author__urls a {
     font-size: 0.95rem;
     line-height: 1.35;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1119px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    overflow: visible;
+    padding-top: 0;
   }
 }
 
