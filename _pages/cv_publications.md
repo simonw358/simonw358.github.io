@@ -41,4 +41,4 @@ For the most up-to-date publication lists, please see my external profiles:
   <li><a href="{{ base_path }}/files/Simon_Weng_CV.pdf" class="btn" download>Download CV</a></li>
 </ul>
 
-<iframe class="cv-frame" src="{{ base_path }}/files/Simon_Weng_CV.pdf" title="Simon Weng CV"></iframe>
+<iframe class="cv-frame" src="{{ base_path }}/files/Simon_Weng_CV.pdf#page=1&view=FitH&navpanes=0" title="Simon Weng CV"></iframe>
