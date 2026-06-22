@@ -11,10 +11,10 @@ Away from astronomy, I enjoy cooking and experimenting with new dishes. Here are
 
 <div class="food-gallery">
   <button class="food-gallery__item" type="button" data-food-image="/images/food/IMG_0688_edited.png" data-food-caption="Fried rice with fridge leftovers" aria-label="Enlarge fried rice dish">
-    <img src="/images/food/IMG_0688_edited.png" alt="Fried rice with vegetables, coriander, and chilli crisp in a blue bowl" loading="eager">
+    <img src="/images/food/IMG_0688_edited.png" alt="Fried rice with vegetables, coriander and chilli crisp in a blue bowl" loading="eager">
   </button>
   <button class="food-gallery__item" type="button" data-food-image="/images/food/IMG_0675_edited.png" data-food-caption="Linguine alla mapo tofu with a Parmesan crisp" aria-label="Enlarge noodle and tofu dish">
-    <img src="/images/food/IMG_0675_edited.png" alt="Noodles with tofu, spring onions, and a crisp garnish" loading="lazy">
+    <img src="/images/food/IMG_0675_edited.png" alt="Noodles with tofu, spring onions and a crisp garnish" loading="lazy">
   </button>
   <button class="food-gallery__item" type="button" data-food-image="/images/food/IMG_0653_full-plate.png" data-food-caption="Braised daikon" aria-label="Enlarge braised daikon dish">
     <img src="/images/food/IMG_0653_full-plate.png" alt="Glazed vegetable rounds with herbs on a floral plate" loading="lazy">
@@ -23,7 +23,7 @@ Away from astronomy, I enjoy cooking and experimenting with new dishes. Here are
     <img src="/images/food/IMG_0673_edited.png" alt="Charred cabbage wedges with a green herb dressing" loading="lazy">
   </button>
   <button class="food-gallery__item" type="button" data-food-image="/images/food/IMG_0644_edited.png" data-food-caption="Peanut and sesame noodles" aria-label="Enlarge peanut and sesame noodle dish">
-    <img src="/images/food/IMG_0644_edited.png" alt="Noodles with a creamy sesame sauce, coriander, spring onion, and chilli oil" loading="lazy">
+    <img src="/images/food/IMG_0644_edited.png" alt="Noodles with a creamy sesame sauce, coriander, spring onion and chilli oil" loading="lazy">
   </button>
 </div>
 
