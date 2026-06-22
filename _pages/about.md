@@ -18,6 +18,6 @@ During my PhD, I spent two years at the European Southern Observatory in Garchin
 
 My interests broadly lie in studying gas in and around galaxies. Much of my work thus far involves the study of absorbers towards background sources and their galaxy counterparts. I work with both radio and optical wavelengths as well as cosmological simulations.
 
-[CV & Publications](/cv_publications/){: .btn}
 [Research](/research/){: .btn}
+[CV & Publications](/cv_publications/){: .btn}
 [Other Interests](/other-interests/){: .btn}
