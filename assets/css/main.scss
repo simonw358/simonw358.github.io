@@ -219,8 +219,20 @@ a:hover {
 .food-lightbox__image {
   display: block;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 3.5rem);
   object-fit: contain;
+}
+
+.food-lightbox__caption {
+  min-height: 3.5rem;
+  margin: 0;
+  padding: 0.8rem 3.75rem 0.8rem 1rem;
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+  background: rgba(20, 28, 29, 0.88);
+  border-radius: 0 0 6px 6px;
 }
 
 .food-lightbox__close {
