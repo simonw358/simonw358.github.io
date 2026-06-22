@@ -159,6 +159,53 @@ a:hover {
   box-shadow: 0 12px 28px rgba(24, 45, 44, 0.08);
 }
 
+.food-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.food-gallery__item {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 0;
+  border-radius: 4px;
+  background: var(--sw-surface);
+  box-shadow: 0 8px 22px rgba(24, 45, 44, 0.09);
+}
+
+.food-gallery__item--wide {
+  grid-column: 1 / -1;
+  aspect-ratio: 2 / 1;
+}
+
+.food-gallery__item img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  transition: transform 220ms ease, filter 220ms ease;
+}
+
+.food-gallery__item:hover img {
+  transform: scale(1.025);
+  filter: saturate(1.04);
+}
+
+@media (max-width: 640px) {
+  .food-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .food-gallery__item,
+  .food-gallery__item--wide {
+    grid-column: auto;
+    aspect-ratio: 4 / 3;
+  }
+}
+
 .page__footer {
   background: #eef3f1;
   border-top: 1px solid var(--sw-line);
