@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-In short, I'm an astronomer. Astronomy is many things for me, and I could launch into any number of platitudes about it. It is obviously my work, my passion, and, at times, an obsession. However, I find a balance is needed here. In the moment, the next paper, next talk, or next application can seem overwhelmingly significant. It is in these moments I look for respite in reading, running, and cooking.
+In short, I'm an astronomer. Astronomy is many things for me, and I could launch into any number of platitudes about it. It is obviously my work, my passion, and, at times, an obsession. However, I find a balance is needed here. In the moment, the next paper, next talk, or next application can seem overwhelmingly significant. It is in these moments I look for respite in reading, running and cooking.
 
 Career thus far
 ======
