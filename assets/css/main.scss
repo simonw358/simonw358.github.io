@@ -159,6 +159,99 @@ a:hover {
   box-shadow: 0 12px 28px rgba(24, 45, 44, 0.08);
 }
 
+.research-intro {
+  max-width: 48rem;
+  margin-bottom: 2.25rem;
+  color: var(--sw-ink);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.research-topic {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.82fr) minmax(0, 1.18fr);
+  gap: 2rem;
+  align-items: start;
+  padding: 2.25rem 0;
+  border-top: 1px solid var(--sw-line);
+}
+
+.research-topic--figure-right {
+  grid-template-columns: minmax(0, 1.18fr) minmax(240px, 0.82fr);
+}
+
+.research-topic--wide {
+  display: block;
+}
+
+.research-topic__copy h2 {
+  margin-top: 0;
+}
+
+.research-topic__copy p:last-child {
+  margin-bottom: 0;
+}
+
+.research-topic__figure {
+  display: block;
+  margin: 0;
+}
+
+.research-topic__figure a {
+  display: block;
+  border: 0;
+  background: #fff;
+}
+
+.research-topic__figure img {
+  display: block;
+  width: 100%;
+  max-height: 690px;
+  margin: 0;
+  object-fit: contain;
+  border: 1px solid var(--sw-line);
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 9px 24px rgba(24, 45, 44, 0.08);
+}
+
+.research-topic__figure--wide {
+  margin-top: 1.5rem;
+}
+
+.research-topic__figure--wide img {
+  max-height: none;
+}
+
+.research-topic__figure figcaption {
+  margin: 0.55rem 0 0;
+  color: var(--sw-muted);
+  font-family: inherit;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 780px) {
+  .research-topic,
+  .research-topic--figure-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .research-topic--figure-right .research-topic__copy {
+    order: 1;
+  }
+
+  .research-topic--figure-right .research-topic__figure {
+    order: 2;
+  }
+
+  .research-topic__figure img {
+    max-height: 620px;
+  }
+}
+
 .food-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
