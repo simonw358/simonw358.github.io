@@ -168,17 +168,15 @@ a:hover {
 
 .food-gallery__item {
   display: block;
+  width: 100%;
+  padding: 0;
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border: 0;
   border-radius: 4px;
   background: var(--sw-surface);
   box-shadow: 0 8px 22px rgba(24, 45, 44, 0.09);
-}
-
-.food-gallery__item--wide {
-  grid-column: 1 / -1;
-  aspect-ratio: 2 / 1;
+  cursor: zoom-in;
 }
 
 .food-gallery__item img {
@@ -194,13 +192,64 @@ a:hover {
   filter: saturate(1.04);
 }
 
+.food-gallery__item:focus-visible {
+  outline: 3px solid var(--sw-accent);
+  outline-offset: 3px;
+}
+
+.food-lightbox {
+  width: min(92vw, 1100px);
+  max-width: none;
+  height: min(90vh, 900px);
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  overflow: visible;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.food-lightbox::backdrop {
+  background: rgba(12, 18, 19, 0.82);
+  backdrop-filter: blur(3px);
+  cursor: zoom-out;
+}
+
+.food-lightbox__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.food-lightbox__close {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  background: rgba(20, 28, 29, 0.75);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.food-lightbox__close:hover {
+  background: rgba(20, 28, 29, 0.95);
+}
+
 @media (max-width: 640px) {
   .food-gallery {
     grid-template-columns: 1fr;
   }
 
-  .food-gallery__item,
-  .food-gallery__item--wide {
+  .food-gallery__item {
     grid-column: auto;
     aspect-ratio: 4 / 3;
   }
