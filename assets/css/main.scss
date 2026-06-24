@@ -196,10 +196,18 @@ a:hover {
   margin: 0;
 }
 
-.research-topic__figure a {
+.research-topic__image-button {
   display: block;
+  width: 100%;
+  padding: 0;
   border: 0;
   background: #fff;
+  cursor: zoom-in;
+}
+
+.research-topic__image-button:focus-visible {
+  outline: 3px solid var(--sw-accent);
+  outline-offset: 3px;
 }
 
 .research-topic__figure img {
@@ -289,7 +297,8 @@ a:hover {
   outline-offset: 3px;
 }
 
-.food-lightbox {
+.food-lightbox,
+.research-lightbox {
   width: min(92vw, 1100px);
   max-width: none;
   height: min(90vh, 900px);
@@ -302,20 +311,23 @@ a:hover {
   background: transparent;
 }
 
-.food-lightbox::backdrop {
+.food-lightbox::backdrop,
+.research-lightbox::backdrop {
   background: rgba(12, 18, 19, 0.82);
   backdrop-filter: blur(3px);
   cursor: zoom-out;
 }
 
-.food-lightbox__image {
+.food-lightbox__image,
+.research-lightbox__image {
   display: block;
   width: 100%;
   height: calc(100% - 3.5rem);
   object-fit: contain;
 }
 
-.food-lightbox__caption {
+.food-lightbox__caption,
+.research-lightbox__caption {
   min-height: 3.5rem;
   margin: 0;
   padding: 0.8rem 3.75rem 0.8rem 1rem;
@@ -327,7 +339,8 @@ a:hover {
   border-radius: 0 0 6px 6px;
 }
 
-.food-lightbox__close {
+.food-lightbox__close,
+.research-lightbox__close {
   position: absolute;
   top: 0.65rem;
   right: 0.65rem;
@@ -344,7 +357,8 @@ a:hover {
   z-index: 1;
 }
 
-.food-lightbox__close:hover {
+.food-lightbox__close:hover,
+.research-lightbox__close:hover {
   background: rgba(20, 28, 29, 0.95);
 }
 

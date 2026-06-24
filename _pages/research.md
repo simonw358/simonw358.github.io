@@ -13,9 +13,9 @@ author_profile: true
 
 <section class="research-topic research-topic--figure-left">
   <figure class="research-topic__figure">
-    <a href="/files/ExampleSetSeed9.pdf" target="_blank" rel="noopener" aria-label="Open the down-the-barrel spectroscopy figure as a PDF">
+    <button class="research-topic__image-button" type="button" data-research-image="/files/ExampleSetSeed9.png" data-research-caption="Example absorption profiles used to identify gas flows in galaxy spectra." aria-label="Enlarge example absorption profiles">
       <img src="/files/ExampleSetSeed9.png" alt="Examples of absorption-line profile fits for galaxies with inflowing and outflowing gas" loading="eager">
-    </a>
+    </button>
     <figcaption>Example absorption profiles used to identify gas flows in galaxy spectra.</figcaption>
   </figure>
 
@@ -40,9 +40,9 @@ author_profile: true
   </div>
 
   <figure class="research-topic__figure">
-    <a href="/files/TNGMandatory.pdf" target="_blank" rel="noopener" aria-label="Open the circumgalactic medium figure as a PDF">
+    <button class="research-topic__image-button" type="button" data-research-image="/files/TNGMandatory.png" data-research-caption="TNG50 sightlines tracing the column density and origins of cool CGM gas." aria-label="Enlarge TNG50 circumgalactic gas figure">
       <img src="/files/TNGMandatory.png" alt="TNG50 maps showing neutral hydrogen and the gravitational and flow origins of circumgalactic gas" loading="lazy">
-    </a>
+    </button>
     <figcaption>TNG50 sightlines tracing the column density and origins of cool CGM gas.</figcaption>
   </figure>
 </section>
@@ -58,9 +58,41 @@ author_profile: true
   </div>
 
   <figure class="research-topic__figure research-topic__figure--wide">
-    <a href="/files/PPXF_fig4.pdf" target="_blank" rel="noopener" aria-label="Open the FLASH spectral fitting figure as a PDF">
+    <button class="research-topic__image-button" type="button" data-research-image="/files/PPXF_fig4.png" data-research-caption="Example spectral fits used to characterise galaxies associated with FLASH absorbers." aria-label="Enlarge FLASH spectral fitting figure">
       <img src="/files/PPXF_fig4.png" alt="Three optical spectra with fitted models used to characterise FLASH absorber host galaxies" loading="lazy">
-    </a>
+    </button>
     <figcaption>Example spectral fits used to characterise galaxies associated with FLASH absorbers.</figcaption>
   </figure>
 </section>
+
+<dialog class="research-lightbox" id="research-lightbox" aria-label="Enlarged research figure" aria-describedby="research-lightbox-caption">
+  <button class="research-lightbox__close" type="button" aria-label="Close enlarged figure">
+    <i class="fas fa-xmark" aria-hidden="true"></i>
+  </button>
+  <img class="research-lightbox__image" src="" alt="">
+  <p class="research-lightbox__caption" id="research-lightbox-caption"></p>
+</dialog>
+
+<script>
+  (() => {
+    const dialog = document.getElementById('research-lightbox');
+    const enlargedImage = dialog.querySelector('.research-lightbox__image');
+    const caption = dialog.querySelector('.research-lightbox__caption');
+    const closeButton = dialog.querySelector('.research-lightbox__close');
+
+    document.querySelectorAll('[data-research-image]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const thumbnail = button.querySelector('img');
+        enlargedImage.src = button.dataset.researchImage;
+        enlargedImage.alt = thumbnail.alt;
+        caption.textContent = button.dataset.researchCaption;
+        dialog.showModal();
+      });
+    });
+
+    closeButton.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  })();
+</script>
