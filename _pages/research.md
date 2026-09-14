@@ -26,6 +26,8 @@ author_profile: true
     <p>Using spectra from the Dark Energy Spectroscopic Instrument, I have identified more than 50,000 galaxies with Na I D absorption, including over 10,000 systems consistent with inflowing gas. This represents the first large, systematic observational study of galactic inflows and increases the available sample by more than a factor of 100.</p>
 
     <p>These inflows span a broad range of velocities and likely arise through several physical channels. Slow inflows may trace motion within galactic discs or material returning through galactic fountains, while the fastest systems are more consistent with satellite accretion and galaxy interactions. Studying these flows across a large and diverse population provides new insight into how accretion, feedback and environment shape galaxy growth.</p>
+
+    <p class="research-topic__publication"><a href="https://arxiv.org/abs/2605.02999" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
   </div>
 </section>
 
@@ -37,6 +39,8 @@ author_profile: true
     <p>I investigate the origins of cool CGM gas by combining absorption-line observations with cosmological simulations. My observational work uses surveys such as MUSE-ALMA Haloes to connect absorbing material with nearby galaxies and their environments. I also use the TNG50 simulation to trace the histories and motions of gas that would be observable in absorption.</p>
 
     <p>This research challenges the simple picture in which accretion occurs mainly along a galaxy’s major axis and outflows dominate along its minor axis. Instead, the cool CGM appears to be shaped by a mixture of accretion, feedback, satellite galaxies and slowly moving material within the halo.</p>
+
+    <p class="research-topic__publication"><a href="https://arxiv.org/abs/2310.18310" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
   </div>
 
   <figure class="research-topic__figure">
@@ -55,6 +59,8 @@ author_profile: true
     <p>I am involved in the First Large Absorption Survey in H I, or FLASH, conducted with the Australian Square Kilometre Array Pathfinder. FLASH searches for redshifted 21-cm absorption across a large area of the sky, providing a statistical view of cold neutral gas at intermediate redshifts.</p>
 
     <p>My work focuses on identifying the galaxies and larger environments associated with these absorbers using optical imaging and spectroscopy. I also contribute to evaluating candidate systems and identifying instrumental artefacts, helping to produce a reliable catalogue for studies of the evolution of cold gas.</p>
+
+    <p class="research-topic__publication"><a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.3638W/abstract" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
   </div>
 
   <figure class="research-topic__figure research-topic__figure--wide">

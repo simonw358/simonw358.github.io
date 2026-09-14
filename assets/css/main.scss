@@ -191,6 +191,25 @@ a:hover {
   margin-bottom: 0;
 }
 
+.research-topic__publication a {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  color: var(--sw-accent-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.research-topic__publication a:hover {
+  color: var(--sw-accent);
+  text-decoration: underline;
+}
+
+.research-topic__publication a:focus-visible {
+  outline: 2px solid var(--sw-accent);
+  outline-offset: 3px;
+}
+
 .research-topic__figure {
   display: block;
   margin: 0;
