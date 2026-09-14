@@ -71,6 +71,26 @@ author_profile: true
   </figure>
 </section>
 
+<section class="research-topic research-topic--figure-left">
+  <figure class="research-topic__figure">
+    <button class="research-topic__image-button" type="button" data-research-image="/files/Q1431m0050.png" data-research-caption="The Q1431-0050 MUSE field, showing galaxies associated with two foreground H I absorbers." aria-label="Enlarge the Q1431-0050 MUSE field">
+      <img src="/files/Q1431m0050.png" alt="MUSE white-light image of the Q1431-0050 field with detected objects and absorber-associated galaxies marked" loading="lazy">
+    </button>
+    <figcaption>The Q1431-0050 MUSE field, showing galaxies associated with two foreground H I absorbers.</figcaption>
+  </figure>
+
+  <div class="research-topic__copy">
+    <h2>Mapping gas and metals around galaxies</h2>
+    <p>Absorption against distant quasars reveals diffuse gas in the circumgalactic medium, while integral-field spectroscopy identifies the galaxies sharing the same environments. Combining these perspectives allows us to connect otherwise unseen gas directly to the galaxies around it.</p>
+
+    <p>Using observations from the MUSE-ALMA Haloes survey, I studied 32 strong H I absorbers at redshifts between 0.2 and 1.4. Across 19 MUSE fields, we identified 79 associated galaxies: 27 of the absorbers have at least one galaxy counterpart and more than half are associated with multiple galaxies.</p>
+
+    <p>The H I column density decreases with distance from the nearest galaxy when scaled by its virial radius, in agreement with predictions from simulations. The galaxies are also typically more metal-rich than the absorbing gas, with the difference increasing at larger distances. Together, these results show how absorber-selected surveys can statistically map the distribution of gas and metals around galaxies.</p>
+
+    <p class="research-topic__publication"><a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.519..931W/abstract" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
+  </div>
+</section>
+
 <section class="research-topic research-topic--wide">
   <div class="research-topic__copy">
     <h2>Neutral hydrogen through 21-cm absorption</h2>
