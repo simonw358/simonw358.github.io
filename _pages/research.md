@@ -11,10 +11,30 @@ author_profile: true
   <p>My research follows this cycle across a range of physical scales. I study gas flowing within galaxies, the extended reservoirs of material in the circumgalactic medium (CGM) and cold neutral hydrogen detected at radio wavelengths. By combining large spectroscopic surveys, detailed observations and cosmological simulations, I aim to understand where galactic gas comes from, how it moves and how it regulates the evolution of galaxies.</p>
 </div>
 
+<section class="research-topic research-topic--wide">
+  <div class="research-topic__copy">
+    <h2>Linking the baryon cycle with scaling relations</h2>
+    <p>Galaxy scaling relations describe how stellar mass is connected to star formation and chemical enrichment. Although these relations are tight, their scatter may preserve evidence of the gas flows that regulate galaxy growth.</p>
+
+    <p>Using nearly 6,000 star-forming galaxies with neutral-gas inflows or outflows identified in DESI DR2, I compare their positions on the star-forming main sequence and mass-metallicity relation with those of carefully matched control galaxies.</p>
+
+    <p>Galaxies hosting outflows and slow inflows tend to have enhanced specific star-formation rates, while fast inflows show weaker star-formation enhancement and modestly lower metallicities. These trends provide direct observational evidence that different phases of the baryon cycle contribute to the scatter in galaxy scaling relations.</p>
+
+    <p class="research-topic__publication"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260901707W/abstract" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
+  </div>
+
+  <figure class="research-topic__figure research-topic__figure--wide">
+    <button class="research-topic__image-button" type="button" data-research-image="/files/scaling-relations.png" data-research-caption="The star-forming main sequence for galaxies hosting neutral-gas flows at different velocities." aria-label="Enlarge gas-flow scaling-relations figure">
+      <img src="/files/scaling-relations.png" alt="Four panels comparing galaxies with neutral-gas flows at different velocities to the star-forming main sequence" loading="eager">
+    </button>
+    <figcaption>The star-forming main sequence for galaxies hosting neutral-gas flows at different velocities.</figcaption>
+  </figure>
+</section>
+
 <section class="research-topic research-topic--figure-left">
   <figure class="research-topic__figure">
     <button class="research-topic__image-button" type="button" data-research-image="/files/ExampleSetSeed9.png" data-research-caption="Example absorption profiles used to identify gas flows in galaxy spectra." aria-label="Enlarge example absorption profiles">
-      <img src="/files/ExampleSetSeed9.png" alt="Examples of absorption-line profile fits for galaxies with inflowing and outflowing gas" loading="eager">
+      <img src="/files/ExampleSetSeed9.png" alt="Examples of absorption-line profile fits for galaxies with inflowing and outflowing gas" loading="lazy">
     </button>
     <figcaption>Example absorption profiles used to identify gas flows in galaxy spectra.</figcaption>
   </figure>
@@ -68,26 +88,6 @@ author_profile: true
       <img src="/files/PPXF_fig4.png" alt="Three optical spectra with fitted models used to characterise FLASH absorber host galaxies" loading="lazy">
     </button>
     <figcaption>Example spectral fits used to characterise galaxies associated with FLASH absorbers.</figcaption>
-  </figure>
-</section>
-
-<section class="research-topic research-topic--wide">
-  <div class="research-topic__copy">
-    <h2>Linking the baryon cycle with scaling relations</h2>
-    <p>Galaxy scaling relations describe how stellar mass is connected to star formation and chemical enrichment. Although these relations are tight, their scatter may preserve evidence of the gas flows that regulate galaxy growth.</p>
-
-    <p>Using nearly 6,000 star-forming galaxies with neutral-gas inflows or outflows identified in DESI DR2, I compare their positions on the star-forming main sequence and mass-metallicity relation with those of carefully matched control galaxies.</p>
-
-    <p>Galaxies hosting outflows and slow inflows tend to have enhanced specific star-formation rates, while fast inflows show weaker star-formation enhancement and modestly lower metallicities. These trends provide direct observational evidence that different phases of the baryon cycle contribute to the scatter in galaxy scaling relations.</p>
-
-    <p class="research-topic__publication"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260901707W/abstract" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
-  </div>
-
-  <figure class="research-topic__figure research-topic__figure--wide">
-    <button class="research-topic__image-button" type="button" data-research-image="/files/scaling-relations.png" data-research-caption="The star-forming main sequence for galaxies hosting neutral-gas flows at different velocities." aria-label="Enlarge gas-flow scaling-relations figure">
-      <img src="/files/scaling-relations.png" alt="Four panels comparing galaxies with neutral-gas flows at different velocities to the star-forming main sequence" loading="lazy">
-    </button>
-    <figcaption>The star-forming main sequence for galaxies hosting neutral-gas flows at different velocities.</figcaption>
   </figure>
 </section>
 
