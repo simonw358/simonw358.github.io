@@ -71,6 +71,26 @@ author_profile: true
   </figure>
 </section>
 
+<section class="research-topic research-topic--wide">
+  <div class="research-topic__copy">
+    <h2>Linking the baryon cycle with scaling relations</h2>
+    <p>Galaxy scaling relations describe how stellar mass is connected to star formation and chemical enrichment. Although these relations are tight, their scatter may preserve evidence of the gas flows that regulate galaxy growth.</p>
+
+    <p>Using nearly 6,000 star-forming galaxies with neutral-gas inflows or outflows identified in DESI DR2, I compare their positions on the star-forming main sequence and mass-metallicity relation with those of carefully matched control galaxies.</p>
+
+    <p>Galaxies hosting outflows and slow inflows tend to have enhanced specific star-formation rates, while fast inflows show weaker star-formation enhancement and modestly lower metallicities. These trends provide direct observational evidence that different phases of the baryon cycle contribute to the scatter in galaxy scaling relations.</p>
+
+    <p class="research-topic__publication"><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260901707W/abstract" target="_blank" rel="noopener noreferrer">View related publication <span aria-hidden="true">&rarr;</span></a></p>
+  </div>
+
+  <figure class="research-topic__figure research-topic__figure--wide">
+    <button class="research-topic__image-button" type="button" data-research-image="/files/scaling-relations.png" data-research-caption="The star-forming main sequence for galaxies hosting neutral-gas flows at different velocities." aria-label="Enlarge gas-flow scaling-relations figure">
+      <img src="/files/scaling-relations.png" alt="Four panels comparing galaxies with neutral-gas flows at different velocities to the star-forming main sequence" loading="lazy">
+    </button>
+    <figcaption>The star-forming main sequence for galaxies hosting neutral-gas flows at different velocities.</figcaption>
+  </figure>
+</section>
+
 <dialog class="research-lightbox" id="research-lightbox" aria-label="Enlarged research figure" aria-describedby="research-lightbox-caption">
   <button class="research-lightbox__close" type="button" aria-label="Close enlarged figure">
     <i class="fas fa-xmark" aria-hidden="true"></i>
